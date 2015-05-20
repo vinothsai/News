@@ -276,6 +276,11 @@ protected void onPostCreate(Bundle savedInstanceState) {
 	mDrawerToggle.syncState();
 }
 
+//local method
+private void showToast(){
+Log.e("Vinoth","Sai");
+}
+
 @Override
 public void onConfigurationChanged(Configuration newConfig) {
 	super.onConfigurationChanged(newConfig);
